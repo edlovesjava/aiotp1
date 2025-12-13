@@ -5,8 +5,6 @@
  * Add your setup code in setup() and your main logic in loop().
  */
 
-#include <Arduino.h>
-
 // Pin definitions
 #define LED_PIN 13
 

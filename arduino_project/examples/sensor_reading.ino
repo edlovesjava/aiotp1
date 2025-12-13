@@ -5,8 +5,6 @@
  * and send them via serial communication
  */
 
-#include <Arduino.h>
-
 #define SENSOR_PIN A0
 #define READ_INTERVAL 500  // milliseconds
 

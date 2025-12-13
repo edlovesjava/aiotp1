@@ -14,7 +14,8 @@ arduino_project/
 ├── lib/                   # External libraries
 ├── examples/              # Example sketches
 │   ├── blink_example.ino
-│   └── sensor_reading.ino
+│   ├── sensor_reading.ino
+│   └── dht_temperature_humidity.ino
 └── test/                  # Test files
 ```
 
@@ -68,6 +69,7 @@ The main sketch (`arduino_project.ino`) includes a simple LED blink example usin
 The `examples/` directory contains sample sketches:
 - **blink_example.ino**: Basic LED blink using delay()
 - **sensor_reading.ino**: Reading analog sensor values
+- **dht_temperature_humidity.ino**: Temperature and humidity monitoring with DHT11/DHT22 sensors (requires DHT sensor library)
 
 To use an example:
 1. Open the example file in Arduino IDE

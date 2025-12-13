@@ -61,6 +61,7 @@ aiotp1/
 ### Examples
 - **blink_example.ino** - Simple LED blink using delay()
 - **sensor_reading.ino** - Analog sensor reading with serial output
+- **dht_temperature_humidity.ino** - DHT11/DHT22 temperature and humidity monitoring with comfort level indicator
 
 ### Custom Library Template
 - Header and implementation file examples

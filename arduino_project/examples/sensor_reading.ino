@@ -12,7 +12,6 @@ unsigned long lastReadTime = 0;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(SENSOR_PIN, INPUT);
   Serial.println("Sensor Reading Example Started");
 }
 

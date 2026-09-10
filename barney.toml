@@ -1,0 +1,16 @@
+[coder]
+model = "us.amazon.nova-2-lite-v1:0"
+harness = "native"
+
+[reviewer]
+model = "qwen.qwen3-coder-next"
+harness = "native"
+
+[loop]
+rounds = 0
+
+[runtime]
+image = "ghcr.io/edlovesjava/barney-platformio:latest"
+
+[aws]
+region = "us-east-1"

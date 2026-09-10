@@ -1,3 +1,42 @@
-# PlatformIO build output
-firmware/.pio/
+# Arduino build files
+*.hex
+*.eep
+*.elf
+*.map
+*.o
+*.a
+*.d
+
+# Arduino IDE
+.build/
+.vscode/
+.vs/
+*.code-workspace
+
+# PlatformIO
 .pio/
+.pioenvs/
+.piolibdeps/
+platformio.ini.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
